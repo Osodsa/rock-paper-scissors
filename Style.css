@@ -1,0 +1,46 @@
+@font-face {
+  font-family: oswald;
+  src: url(./Oswald-BoldItalic.ttf) format("truetype");
+}
+
+.here {
+  position: relative;
+  top: 10cm;
+  left: 10cm;
+}
+
+body {
+  font-family: oswald;
+}
+
+.werdict {
+  background-color: grey;
+  text-indent: 15%;
+}
+
+img {
+  position: fixed;
+  bottom: 1%;
+  left: 0%;
+  width: clamp(200px, 100%, 700px);
+  height: clamp(200px, 100%, 700px);
+}
+
+.hp {
+  background-color: hsl(100, 100%, 50%);
+  margin: 10px;
+  padding: 10px;
+  text-indent: 50%;
+  width: clamp(145px, 600px, 700px);
+}
+
+.myhp {
+  background-color: hsl(100, 100%, 50%);
+  margin: 10px;
+  padding: 10px;
+  text-indent: 50%;
+  width: clamp(145px, 600px, 700px);
+  position: fixed;
+  right: 0%;
+  top: 29px;
+}
